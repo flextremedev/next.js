@@ -3,6 +3,9 @@ import Image from 'next/image'
 
 import styles from '@/pages/index.module.css'
 
+/* istanbul ignore next */
+export const a = () => ''
+
 export default function Home() {
   return (
     <div className={styles.container}>
